@@ -1,0 +1,66 @@
+/* Typography */
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  color: #fde808;
+  background: black;
+  padding: 20px;
+}
+
+h1 , h2 {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-kerning: 1px;
+}
+
+p {
+  font-size: .75em;
+  font-weight: lighter;
+  font-kerning: 1px;
+  line-height: 125%;
+}
+nav {
+  margin: auto;
+  width: 100%;
+}
+ul , li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Layout */
+
+section {
+  border-style: dashed;
+  border-width: thick;
+  border-color: white;
+  padding: 1rem 2rem;
+  display: inline-block;
+  width: 50%;
+}
+
+form {
+  margin-top: 1em;
+  background-color: gray;
+  width: 250px;
+}
+
+label {margin-left: 5px;}
+
+.name , .gender , .pizza {
+  padding-top: .5rem;
+}
+
+button {
+  color: white;
+  background: black;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
